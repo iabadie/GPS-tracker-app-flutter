@@ -40,7 +40,8 @@ class _MapScreenState extends State<MapScreen> {
                 }
               ),
               IconButton(
-                icon: Icon(Icons.message),
+                icon: Icon(Icons.kitchen),
+                tooltip: "Server",
                 onPressed: () {
                   setState(() {
                     goToInformationScreen(context);
